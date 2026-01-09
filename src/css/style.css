@@ -49,6 +49,10 @@ main {
     border: 1px solid black;
 }
 
+.formulario input:focus {
+    outline: none;
+}
+
 .formulario input::placeholder, textarea::placeholder {
     font-weight: 700;
     font-size: 0.93rem;
@@ -62,6 +66,10 @@ main {
     padding: 8px;
     border: 1px solid black;
     resize: none;
+}
+
+.formulario textarea:focus {
+    outline: none;
 }
 
 .formulario .aviso {
