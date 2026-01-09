@@ -25,12 +25,23 @@
 
         <div class="formulario">
             <form action="" method="">
-                <input type="text" name="name" id="name" placeholder="Nome completo *">
-                <input type="email" name="email" id="email" placeholder="Email *">
-                <input type="tel" name="tel" id="tel" placeholder="Telefone *">
-                <textarea name="textarea" id="textarea" placeholder="Mensagem *"></textarea>
-                <p>*campos obrigatórios</p>
+
+                <input class="input" type="text" name="name" id="name" placeholder="Nome completo *">
+                <p class="campo-obrigatorio">campo obrigatório</p>
+
+                <input class="input" type="email" name="email" id="email" placeholder="Email *">
+                <p class="campo-obrigatorio">campo obrigatório</p>
+
+                <input class="input" type="tel" name="tel" id="tel" placeholder="Telefone *">
+                <p class="campo-obrigatorio">campo obrigatório</p>
+
+                <textarea class="input" name="textarea" id="textarea" placeholder="Mensagem *"></textarea>
+                <p class="campo-obrigatorio">campo obrigatório</p>
+
+                <p class="aviso">*campos obrigatórios</p>
+
                 <button type="submit">Enviar</button>
+
             </form>
         </div>
     </main>

@@ -35,7 +35,7 @@ main {
 .formulario {
     background-color: #FFFFFF;
     max-width: 340px;
-    height: 378px;
+    height: 382px;
     display: flex;
     justify-content: center;
     padding: 1.25rem;
@@ -45,7 +45,6 @@ main {
     width: 18.62rem;
     height: 35px;
     border-radius: 5px;
-    margin-bottom: 15px;
     padding: 8px;
     border: 1px solid black;
 }
@@ -60,16 +59,15 @@ main {
     width: 18.62rem;
     height: 100px;
     border-radius: 5px;
-    margin-bottom: 4px;
     padding: 8px;
     border: 1px solid black;
     resize: none;
 }
 
-.formulario p {
+.formulario .aviso {
     font-weight: 400;
     font-size: 0.93rem;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .formulario button {
@@ -82,4 +80,24 @@ main {
     font-weight: 700;
     font-size: 0.93rem;
     cursor: pointer;
+}
+
+.campo-obrigatorio {
+    font-weight: 400;
+    font-size: 8px;
+    color: #F52E2E;
+    margin-bottom: 5px;
+    opacity: 0;
+}
+
+.campo-obrigatorio.nao-preenchido {
+    opacity: 1;
+}
+
+.input.nao-preenchido {
+    border: 1px solid #F52E2E;
+}
+
+.input.preenchido {
+    border: 1px solid #00C22B;
 }
